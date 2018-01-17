@@ -199,7 +199,7 @@ public class wxJumpTool : NSObject {
         let sec = Float(distance) / useConfig.distanceDivisor
         print(sec)
         
-        var request = URLRequest.init(url: URL.init(string: "http://127.0.0.1:8100/session/\(sessionId!)/wda/touchAndHold")!)
+        var request = URLRequest.init(url: URL.init(string: baseUrl + "session/\(sessionId!)/wda/touchAndHold")!)
         request.httpMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
     
