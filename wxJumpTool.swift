@@ -140,7 +140,8 @@ public class wxJumpTool : NSObject {
      func parseGameImageData(imageData:Data, debug:Bool ) {
         
         if !debug {
-           try! imageData.write(to: URL.init(fileURLWithPath: "/Users/litiezhu/Documents/output/\(NSDate.init().timeIntervalSince1970).png"))
+            /// 可以把图片输出看是在哪个图片掉下去 然后用调试模式分析
+           //try! imageData.write(to: URL.init(fileURLWithPath: "/Users/litiezhu/Documents/output/\(NSDate.init().timeIntervalSince1970).png"))
         }
         
         var cfData: CFData?
