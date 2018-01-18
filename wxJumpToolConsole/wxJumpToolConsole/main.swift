@@ -10,7 +10,7 @@ import Foundation
 
 
 var tool = wxJumpTool.init()
-tool.chessImage = CGImage.init(pngDataProviderSource: CGDataProvider.init(filename: "棋子文件截图路径")!, decode: nil, shouldInterpolate: false, intent: .defaultIntent)
+tool.chessImage = CGImage.init(pngDataProviderSource: CGDataProvider.init(filename: "<#棋子文件截图路径#>")!, decode: nil, shouldInterpolate: false, intent: .defaultIntent)
 
 while true {
     

@@ -67,7 +67,7 @@ func imageContainOtherImage_Gray(image: CGImage, otherImage: CGImage, range: Int
     let imageTuples = makeGrayBitmapContext(image: image)
     let otherImageTuples = makeGrayBitmapContext(image: otherImage)
     
-    /// 查找图片所在位置 误差20
+    /// 查找图片所在位置
     ///
     /// - Parameters:
     ///   - imageRow: 在 image 的哪一行查找
@@ -137,7 +137,7 @@ func imageContainOtherImage_RGB(image: CGImage, otherImage: CGImage, range: Int)
     let imageTuples = makeRGBBitmapContext(image: image)
     let otherImageTuples = makeRGBBitmapContext(image: otherImage)
     
-    /// 查找图片所在位置 颜色误差40
+    /// 查找图片所在位置
     ///
     /// - Parameters:
     ///   - imageRow: 在 image 的哪一行查找
