@@ -41,7 +41,7 @@ public class wxJumpTool : NSObject {
         useConfig.chessOffset.y = 6
         switch width {
         case 750: // 4.7屏幕
-            useConfig.nextOffset.x = 10
+            useConfig.nextOffset.x = 6
             useConfig.nextOffset.y = 50
             
             useConfig.distanceDivisor = 520.0
